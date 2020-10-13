@@ -1,0 +1,36 @@
+source: https://en.wikipedia.org/wiki/Busy_beaver
+1-state 2-symbol busy beaver:
+state 1, symbol 0: 110
+state 1, symbol 1: (not used)
+1 step, 1 "1"
+minimum: tapeLength = 2, startPos = 0
+
+2-state 2-symbol busy beaver:
+state 1, symbol 0: 112
+state 1, symbol 1: 102
+state 2, symbol 0: 101
+state 2, symbol 1: 110
+6 steps, 4 "1"s
+minimum: tapeLength = 4, startPos = 2
+
+3-state 2-symbol busy beaver:
+state 1, symbol 0: 112
+state 1, symbol 1: 110
+state 2, symbol 0: 013
+state 2, symbol 1: 112
+state 3, symbol 0: 103
+state 3, symbol 1: 101
+14 steps, 6 "1"s
+minimum: tapeLength = 6, startPos = 1
+
+4-state 2-symbol busy beaver:
+state 1, symbol 0: 112
+state 1, symbol 1: 102
+state 2, symbol 0: 101
+state 2, symbol 1: 003
+state 3, symbol 0: 110
+state 3, symbol 1: 104
+state 4, symbol 0: 114
+state 4, symbol 1: 011
+107 steps, 13 "1"s
+minimum: tapeLength = 14, startPos = 10
