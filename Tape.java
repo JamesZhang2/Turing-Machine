@@ -1,4 +1,5 @@
-// Written by James Ruogu Zhang on Oct. 13, 2020
+// Written by James Ruogu Zhang on October 13, 2020
+// The memory tape is an object that stores all the symbols
 
 public class Tape {
     private int tapeLength;
@@ -7,6 +8,7 @@ public class Tape {
     public Tape(int tapeLength) {
     	this.tapeLength = tapeLength;
     	tapeContent = new int[tapeLength];
+    	// All symbols are initialized to be 0
     	for (int i = 0; i < tapeLength; i++) {
     		tapeContent[i] = 0;
     	}
